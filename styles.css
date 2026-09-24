@@ -1,0 +1,64 @@
+:root {
+    --main-page-bg-color: #fff3b0;
+    --killing-color: #ef476f;
+    --type-color: #669bbc;
+    --main-font-color: #003049;
+    --hover-color1: #ff6fbf;
+    --hover-color2: #fcffcc;
+    --title-base-font-size: 12em;
+    --title-base-font-size-mult: 1.8;
+    --title-base-font-letter-spacing: -10px;
+    --content-font-size: 1em;
+    --content-font-size-mult: 1.25;
+}
+
+.main-page {
+    background-color: var(--main-page-bg-color);
+    display:block;
+    justify-content: center;
+}
+
+.content-main-page {
+    display: block;
+    justify-content: center;
+    color: var(--main-font-color);
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: calc(var(--content-font-size) * var(--content-font-size-mult));
+}
+
+a:link, a:active, a:visited {
+    color: var(--main-font-color);
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: var(--main-font-color);
+    font-style: normal;
+    text-decoration: none;
+    background-color: var(--hover-color1);
+}
+
+.font-killing {
+    color: var(--killing-color);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: var(--title-base-font-size);
+    font-style: italic;
+    line-height: 0;
+}
+
+.font-type {
+    color: var(--type-color);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: calc(var(--title-base-font-size) * var(--title-base-font-size-mult));
+    font-style: normal;
+    line-height: 0;
+    letter-spacing: calc(var(--title-base-font-letter-spacing) * var(--title-base-font-size-mult));
+}
