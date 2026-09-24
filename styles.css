@@ -6,10 +6,10 @@
     --main-font-color: #003049;
     --hover-color1: #ff6fbf;
     --hover-color2: #fcffcc;
-    --title-base-font-size: 12em;
+    --title-base-font-size: 10em;
     --title-base-font-size-mult: 1.8;
     --title-base-font-letter-spacing: -10px;
-    --content-font-size: 3em;
+    --content-font-size: 2.25em;
 }
 
 .main-page {
@@ -27,6 +27,8 @@
     font-weight: 600;
     font-style: normal;
     font-size: var(--content-font-size);
+    line-height: 0.85;
+
 }
 
 a:link, a:active, a:visited {
