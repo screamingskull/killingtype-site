@@ -2,14 +2,14 @@
     --main-page-bg-color: #fff3b0;
     --killing-color: #ef476f;
     --type-color: #669bbc;
+    --dotcom-color: #003049;
     --main-font-color: #003049;
     --hover-color1: #ff6fbf;
     --hover-color2: #fcffcc;
     --title-base-font-size: 12em;
     --title-base-font-size-mult: 1.8;
     --title-base-font-letter-spacing: -10px;
-    --content-font-size: 1em;
-    --content-font-size-mult: 1.25;
+    --content-font-size: 3em;
 }
 
 .main-page {
@@ -26,7 +26,7 @@
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    font-size: calc(var(--content-font-size) * var(--content-font-size-mult));
+    font-size: var(--content-font-size);
 }
 
 a:link, a:active, a:visited {
@@ -60,5 +60,16 @@ a:hover, a:focus {
     font-size: calc(var(--title-base-font-size) * var(--title-base-font-size-mult));
     font-style: normal;
     line-height: 0;
+    letter-spacing: calc(var(--title-base-font-letter-spacing) * var(--title-base-font-size-mult));
+}
+
+.font-dotcom {
+    color: var(--dotcom-color);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: calc(var(--title-base-font-size) * var(--title-base-font-size-mult));
+    font-style: normal;
+    line-height: 0.3;
     letter-spacing: calc(var(--title-base-font-letter-spacing) * var(--title-base-font-size-mult));
 }
