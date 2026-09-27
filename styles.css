@@ -1,12 +1,5 @@
 :root {
-    --main-page-bg-color: #fff3b0;
-    --killing-color: #ef476f;
-    --type-color: #669bbc;
-    --dotcom-color: #003049;
-    --main-font-color: #003049;
-    --hover-color1: #ff6fbf;
-    --hover-color2: #fcffcc;
-    --title-base-font-size: 10em;
+    --title-base-font-size: 8em;
     --title-base-font-size-mult: 1.8;
     --title-base-font-letter-spacing: -10px;
     --content-font-size: 2.25em;
@@ -74,4 +67,40 @@ a:hover, a:focus {
     font-style: normal;
     line-height: 0.3;
     letter-spacing: calc(var(--title-base-font-letter-spacing) * var(--title-base-font-size-mult));
+}
+
+:root[data-theme="default"] {
+    --main-page-bg-color: #fff3b0;
+    --killing-color: #ef476f;
+    --type-color: #669bbc;
+    --dotcom-color: #003049;
+    --main-font-color: #003049;
+    --hover-color1: #ff6fbf;
+}
+
+:root[data-theme="dark"] {
+    --main-page-bg-color: #111111;
+    --killing-color: #ef47d2;
+    --type-color: #669bbc;
+    --dotcom-color: #003049;
+    --main-font-color: #003049;
+    --hover-color1: #ff6fbf;
+}
+
+:root[data-theme="sunset"] {
+    --main-page-bg-color: #fff1e6;
+    --killing-color: #ef6a47;
+    --type-color: #6b66bc;
+    --dotcom-color: #000f49;
+    --main-font-color: #000f49;
+    --hover-color1: #d6ff6f;
+}
+
+:root[data-theme="neon"] {
+    --main-page-bg-color: #fdb67f;
+    --killing-color: #ff6fbf;
+    --type-color: #b9e4ff;
+    --dotcom-color: #04ffdd;
+    --main-font-color: #003049;
+    --hover-color1: #6fff88;
 }
