@@ -3,6 +3,43 @@
     --title-base-font-size-mult: 1.8;
     --title-base-font-letter-spacing: -10px;
     --content-font-size: 2.25em;
+    --select-button-font-size: 1em;
+}
+
+:root[data-theme="default"] {
+    --main-page-bg-color: #fff3b0;
+    --killing-color: #ef476f;
+    --type-color: #669bbc;
+    --dotcom-color: #003049;
+    --main-font-color: #003049;
+    --hover-color: #ff6fbf;
+}
+
+:root[data-theme="dark"] {
+    --main-page-bg-color: #111111;
+    --killing-color: #ef47d2;
+    --type-color: #669bbc;
+    --dotcom-color: #003049;
+    --main-font-color: #003049;
+    --hover-color: #ff6fbf;
+}
+
+:root[data-theme="sunset"] {
+    --main-page-bg-color: #fff1e6;
+    --killing-color: #ef6a47;
+    --type-color: #6b66bc;
+    --dotcom-color: #000f49;
+    --main-font-color: #000f49;
+    --hover-color: #d6ff6f;
+}
+
+:root[data-theme="neon"] {
+    --main-page-bg-color: #fdb67f;
+    --killing-color: #ff6fbf;
+    --type-color: #b9e4ff;
+    --dotcom-color: #04ffdd;
+    --main-font-color: #003049;
+    --hover-color: #6fff88;
 }
 
 .main-page {
@@ -34,7 +71,7 @@ a:hover, a:focus {
     color: var(--main-font-color);
     font-style: normal;
     text-decoration: none;
-    background-color: var(--hover-color1);
+    background-color: var(--hover-color);
 }
 
 .font-killing {
@@ -69,38 +106,10 @@ a:hover, a:focus {
     letter-spacing: calc(var(--title-base-font-letter-spacing) * var(--title-base-font-size-mult));
 }
 
-:root[data-theme="default"] {
-    --main-page-bg-color: #fff3b0;
-    --killing-color: #ef476f;
-    --type-color: #669bbc;
-    --dotcom-color: #003049;
-    --main-font-color: #003049;
-    --hover-color1: #ff6fbf;
-}
-
-:root[data-theme="dark"] {
-    --main-page-bg-color: #111111;
-    --killing-color: #ef47d2;
-    --type-color: #669bbc;
-    --dotcom-color: #003049;
-    --main-font-color: #003049;
-    --hover-color1: #ff6fbf;
-}
-
-:root[data-theme="sunset"] {
-    --main-page-bg-color: #fff1e6;
-    --killing-color: #ef6a47;
-    --type-color: #6b66bc;
-    --dotcom-color: #000f49;
-    --main-font-color: #000f49;
-    --hover-color1: #d6ff6f;
-}
-
-:root[data-theme="neon"] {
-    --main-page-bg-color: #fdb67f;
-    --killing-color: #ff6fbf;
-    --type-color: #b9e4ff;
-    --dotcom-color: #04ffdd;
-    --main-font-color: #003049;
-    --hover-color1: #6fff88;
+.select-button {
+    background-color: var(--main-page-bg-color);
+    border:dashed;
+    border-color: var(--hover-color);
+    color: var(--main-font-color);
+    font-size: var(--select-button-font-size);
 }
