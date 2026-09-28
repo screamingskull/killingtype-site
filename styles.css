@@ -107,6 +107,10 @@ a:hover, a:focus {
 }
 
 .select-button {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
     background-color: var(--main-page-bg-color);
     border:dashed;
     border-color: var(--hover-color);
