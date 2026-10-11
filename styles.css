@@ -150,6 +150,78 @@
     --hover-color: #EC633E;
 }
 
+:root[data-theme="insomniac"] {
+    --main-page-bg-color: #F7DB9D;
+    --killing-color: #813B23;
+    --type-color: #5E3F41;
+    --dotcom-color: #3E3E27;
+    --main-font-color: #3E221F;
+    --hover-color: #DEA061;
+}
+
+:root[data-theme="foldsfive"] {
+    --main-page-bg-color: #E4E4DB;
+    --killing-color: #7C6548;
+    --type-color: #3E423A;
+    --dotcom-color: #0B1517;
+    --main-font-color: #0B1517;
+    --hover-color: #D88236;
+}
+
+:root[data-theme="glory"] {
+    --main-page-bg-color: #BEC1C0;
+    --killing-color: #615F5F;
+    --type-color: #423E3E;
+    --dotcom-color: #211E1E;
+    --main-font-color: #211E1E;
+    --hover-color: #DDE6E6;
+}
+
+:root[data-theme="maybe"] {
+    --main-page-bg-color: #E2C19C;
+    --killing-color: #215F81;
+    --type-color: #3C3E3F;
+    --dotcom-color: #1F1D22;
+    --main-font-color: #1F1D22;
+    --hover-color: #A29E81;
+}
+
+:root[data-theme="jagged"] {
+    --main-page-bg-color: #C1E4DE;
+    --killing-color: #453E81;
+    --type-color: #3A3B40;
+    --dotcom-color: #1C1D21;
+    --main-font-color: #1C1D21;
+    --hover-color: #FEFFFE;
+}
+
+:root[data-theme="heaven"] {
+    --main-page-bg-color: #DF7E82;
+    --killing-color: #DC5E60;
+    --type-color: #7E395B;
+    --dotcom-color: #3A3562;
+    --main-font-color: #3A3562;
+    --hover-color: #E64034;
+}
+
+:root[data-theme="vital"] {
+    --main-page-bg-color: #BC9B38;
+    --killing-color: #797A76;
+    --type-color: #595956;
+    --dotcom-color: #3B3A38;
+    --main-font-color: #3B3A38;
+    --hover-color: #7B6739;
+}
+
+:root[data-theme="dots"] {
+    --main-page-bg-color: #656666;
+    --killing-color: #C1DC17;
+    --type-color: #9BDE3D;
+    --dotcom-color: #40DD9F;
+    --main-font-color: #40DD9F;
+    --hover-color: #03DDE2;
+}
+
 .main-page {
     background-color: var(--main-page-bg-color);
     display:block;
